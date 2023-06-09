@@ -11,6 +11,40 @@
         <h3>Pentru a te inregistra la curs inscriete mai jos:</h3>
         <hr />
     </header>
+    <form>
+        <label for="firstname">Prenume:</label><br />
+        <input type="text" id="firstname" name="firstname" placeholder="Introduceti Prenumele" required /><br />
+        <label for="lastname">Nume:</label><br />
+        <input type="text" id="lastname" name="lastname" placeholder="Introduceti Numele" required /><br />
+        <label for="email">Adresa de email:</label><br />
+        <input type="email" id="email" name="email" placeholder="Introduceti email-ul" required /><br />
+        <label for="password">Parola:</label><br />
+        <input type="password" id="password" name="password" placeholder="Introduceti parola:" required><br />
+        <label for="passwordrepeat">Repeta parola:</label><br />
+        <input type="passwordrepeat" id="passwordrepeat" name="passwordrepeat" placeholder="Repetati parola"
+            required><br />
+        <label for="datanasterii">Data nasterii:</label><br />
+        <input type="date" /><br />
+        <label for="stare">Statut:</label><br />
+        <select id="varianta" name="varianta">
+            <option value="var1">Student</option>
+            <option value="var2">Lucrez</option>
+            <option value="var3">Somer</option>
+        </select><br />
+        <label for="aboutyou">Despre tine:</label><br />
+        <textarea name="" id="" cols="25" rows="5"></textarea><br />
+        <label for="plata">Metoda achitarii:</label><br />
+        <input type="radio" name="plata" value="in rate" />In rate<br />
+        <input type="radio" name="plata" value="integral" />Integral<br />
+        <label for="specific">Pentru ce ai nevoie de curs?</label><br />
+        <input type="checkbox" name="scop_nul" value="personal" /> Informatii personale<br />
+        <input type="checkbox" name="scop_angajare" value="angajare" />Doresc sa ma angajez<br />
+        <input type="checkbox" name="scop_avansare" value="avansare" />Vreau sa avansez in domeniu<br />
+        <footer>
+            <button type="submit">Inregistreaza-ma</button>
+        </footer>
+
+    </form>
 
 </body>
 
